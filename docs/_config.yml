@@ -1,4 +1,4 @@
-baseurl: /ebs_spread
+baseurl: /computerkurs-maerz-2023
 site: EbsSpread
 
 collections:
@@ -48,7 +48,7 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
-  
+
 sass:
   style: compressed
 
