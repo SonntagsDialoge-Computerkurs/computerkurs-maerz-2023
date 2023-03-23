@@ -1,0 +1,30 @@
+<section class="about">
+  {% if include.divider == true %}
+    <div class="wrap"><hr/></div>
+    {% endif %}
+  <div class="wrap grid">
+
+    <div class="about__image">
+      <img src="{{ '/images/about/me_climbing.jpeg' | relative_url }}" alt="">
+
+      {% include component-socials.html %}
+    </div>
+
+    <div class="about__content">
+      <h2 class="title">Hey, I’m Christian, have a nice stay!</h2>
+      <p class="subtitle subtitle--light">I’m an engineer with a strong passion 
+        for devices that really improve people's lives.
+      </p>
+
+      <p>My skills include analyzing problems,  solving complex questions and 
+        programming challenges.
+      </p>
+
+      <p>I’d love to learn about you and see how you use Evidence Based Sheduling. 
+        Feel free to send me an email!
+      </p>
+
+      <a href="#" class="cta button--fill contact-trigger js-contact">Get in Touch</a>
+    </div>
+  </div>
+</section>
